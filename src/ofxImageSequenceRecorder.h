@@ -62,7 +62,7 @@ public:
 
         
         
-        char fileName[100]; 
+        char fileName[256]; 
         sprintf(fileName,  "%s%.4i.%s" , prefix.c_str(), counter, format.c_str());     
         counter++;   
         
